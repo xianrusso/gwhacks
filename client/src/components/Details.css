@@ -6,14 +6,3 @@ dl {
     display: flex;
     flex-direction: column;
 }
-
-/* dt {
-    grid-area: dt;
-}
-
-dl {
-    display: grid;
-    grid-template:
-        'dt dt dt'
-        'dt dt dt';
-} */

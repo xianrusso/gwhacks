@@ -2,10 +2,11 @@
     background: lightgrey;
     font-size: 87.5%;
     padding: 0.25rem;
+    width: 100%;
 }
 
 .status__text {
     margin: 0 auto;
     max-width: 640px;
-    text-align: right;
+    text-align: center;
 }

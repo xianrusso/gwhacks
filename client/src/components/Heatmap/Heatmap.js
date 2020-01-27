@@ -16,6 +16,7 @@ const Heatmap = () => {
     <div
       style={{
         width: "100%",
+        height: "auto",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -27,8 +28,9 @@ const Heatmap = () => {
         data={data}
         xLabelsLocation={"bottom"}
         xLabelsVisibility={xLabelsVisibility}
+        yLabelWidth={50}
+        xLabelWidth={0}
         squares
-        yLabelWidth={0}
       />
     </div>
   )

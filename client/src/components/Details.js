@@ -12,6 +12,7 @@ import {
 import Heatmap from "../components/Heatmap/Heatmap"
 import Streak from "../components/Streak/Streak"
 import { graphql, useStaticQuery } from "gatsby"
+import Timer from "./Timer/Timer"
 
 import "./Details.css"
 
@@ -35,6 +36,16 @@ const Details = () => {
   return (
     <View title={legalName} className="name">
       <dl>
+        <img
+          src="https://s.hdnux.com/photos/01/10/14/45/18925900/5/920x920.jpg"
+          alt="Lamar"
+          style={{
+            width: "150px",
+            height: "150px",
+            borderRadius: "50%",
+          }}
+        />
+        <dt>{legalName}</dt>
         <dt>
           <FontAwesomeIcon className="icon" icon={faEnvelope} />
           {email}
@@ -51,6 +62,9 @@ const Details = () => {
         </dt>
         <dt>
           <Streak />
+        </dt>
+        <dt>
+          <Timer />
         </dt>
       </dl>
 

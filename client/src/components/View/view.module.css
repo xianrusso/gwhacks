@@ -1,26 +1,11 @@
 .view {
-    width: inherit;
-    margin: 2rem auto 3rem;
-}
-
-.icon {
-    margin-left: 1em;
+  width: inherit;
+  margin: 2rem auto 3rem;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-dt {
-    grid-area: dt;
-}
-
-dl {
-    display: grid;
-    grid-template:
-        'dt dt dt'
-        'dt dt dt';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
